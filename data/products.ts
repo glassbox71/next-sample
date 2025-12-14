@@ -25,5 +25,13 @@ export const products: Product[] = [
     image: '/images/kids.jpg',
     category: 'kids',
   },
+  {
+    id: 4,
+    title: 'kids ',
+    price: 58000,
+    description: '어린이 ',
+    image: '/images/kids2.jpg',
+    category: 'kids',
+  },
 ];
 
