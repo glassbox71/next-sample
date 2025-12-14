@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import "./globals.css";
 import Header from "@/components/Header";
 
@@ -18,6 +19,7 @@ export default function RootLayout({
         <main className="p-6 max-w-5xl mx-auto">
           {children}
         </main>
+        <Footer />
       </body>
     </html>
   );

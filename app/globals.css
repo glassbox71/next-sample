@@ -24,3 +24,24 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+.logo{
+  width: 120px;
+}
+.header-left{
+    display: flex;
+    align-items: center;
+    gap: 10px;  
+    justify-content: space-between;
+    .main-menu{
+        display: flex;
+        gap: 15px;
+        list-style: none;
+        li{
+            cursor: pointer;
+        } 
+    }
+}
+.inner{
+    max-width: 1200px;
+    margin: 0 auto;
+} 
